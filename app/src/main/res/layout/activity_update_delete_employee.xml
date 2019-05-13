@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteEmployee">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:fontFamily="cursive"
+        android:text="UPDATE/DELETE"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmpNo"
+        style="@style/UpdateDelete"
+        android:hint="Enter Employee Number"
+        android:inputType="number"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/btnSearch"
+       style="@style/UpdateDelete"
+        android:text="SEARCH"
+        android:background="@drawable/mybutton"
+        />
+
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Number"
+        style="@style/UpdateDelete"
+        android:textColorHint="#fff"/>
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        style="@style/UpdateDelete"
+        android:textColorHint="#fff"/>
+
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Age"
+        style="@style/UpdateDelete"
+        android:textColorHint="#fff"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/UpdateDelete"
+        android:text="UPDATE"
+        android:background="@drawable/mybutton"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/UpdateDelete"
+        android:text="DELETE"
+        android:background="@drawable/mybutton"
+        />
+
+</LinearLayout>

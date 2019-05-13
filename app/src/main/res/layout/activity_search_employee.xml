@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    tools:context=".SearchEmployee">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:textSize="50dp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etEmpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Enter Employee Number"
+        android:textColorHint="#fff"
+
+        android:textColor="#fff"
+        android:inputType="number"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/mybutton"
+
+        android:text="SEARCH"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:id="@+id/tvData"
+            android:fontFamily="sans-serif"
+            android:layout_margin="30dp"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

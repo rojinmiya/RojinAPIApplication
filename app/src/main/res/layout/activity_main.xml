@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:fontFamily="cursive"
+        android:text="DASHBOARD"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShow"
+        style="@style/Registration"
+        android:text="SHOW ALL EMPLOYEE"
+        android:background="@drawable/mybutton"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Registration"
+        android:text="REGISTER EMPLOYEE"
+        android:background="@drawable/mybutton"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnSearch"
+        style="@style/Registration"
+        android:text="SEARCH EMPLOYEE"
+        android:background="@drawable/mybutton"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/Registration"
+        android:text="UPDATE/DELETE"
+        android:background="@drawable/mybutton"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+
+</LinearLayout>
